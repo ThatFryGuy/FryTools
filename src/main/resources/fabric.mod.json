@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "frytools",
+  "version": "${version}",
+  "name": "FryTools",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/frytools/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.thefryguy.frytools.client.FrytoolsClient"
+    ],
+    "main": [
+      "com.thefryguy.frytools.Frytools"
+    ]
+  },
+  "mixins": [
+    "frytools.mixins.json",
+    {
+      "config": "frytools.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}

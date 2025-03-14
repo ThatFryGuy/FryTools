@@ -1,0 +1,233 @@
+[00:32:14] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.21 with Fabric Loader 0.16.10
+[00:32:14] [main/INFO] (FabricLoader) Loading 58 mods:
+	- authme 8.0.0+1.21
+	   \-- cloth-config 15.0.127
+	        \-- cloth-basic-math 0.6.1
+	- fabric-api 0.102.0+1.21
+	- fabric-api-base 0.4.42+6573ed8cd1
+	- fabric-api-lookup-api-v1 1.6.68+b5597344d1
+	- fabric-biome-api-v1 13.0.29+5bd9f1bcd1
+	- fabric-block-api-v1 1.0.22+0af3f5a7d1
+	- fabric-block-view-api-v2 1.0.10+6573ed8cd1
+	- fabric-blockrenderlayer-v1 1.1.52+0af3f5a7d1
+	- fabric-client-tags-api-v1 1.1.15+6573ed8cd1
+	- fabric-command-api-v1 1.2.49+f71b366fd1
+	- fabric-command-api-v2 2.2.28+6ced4dd9d1
+	- fabric-commands-v0 0.2.66+df3654b3d1
+	- fabric-content-registries-v0 8.0.16+b5597344d1
+	- fabric-convention-tags-v1 2.0.19+7f945d5bd1
+	- fabric-convention-tags-v2 2.5.0+c5e2b5c6d1
+	- fabric-crash-report-info-v1 0.2.29+0af3f5a7d1
+	- fabric-data-attachment-api-v1 1.1.27+6a6dfa19d1
+	- fabric-data-generation-api-v1 20.2.16+16c4ae25d1
+	- fabric-dimensions-v1 4.0.0+6fc22b99d1
+	- fabric-entity-events-v1 1.6.12+6fc22b99d1
+	- fabric-events-interaction-v0 0.7.12+ba9dae06d1
+	- fabric-game-rule-api-v1 1.0.53+6ced4dd9d1
+	- fabric-gametest-api-v1 2.0.4+6fc22b99d1
+	- fabric-item-api-v1 11.0.0+afdfc921d1
+	- fabric-item-group-api-v1 4.1.4+78017270d1
+	- fabric-key-binding-api-v1 1.0.47+0af3f5a7d1
+	- fabric-keybindings-v0 0.2.45+df3654b3d1
+	- fabric-lifecycle-events-v1 2.3.12+6c1df360d1
+	- fabric-loot-api-v2 3.0.14+3f89f5a5d1
+	- fabric-loot-api-v3 1.0.2+3f89f5a5d1
+	- fabric-message-api-v1 6.0.13+6573ed8cd1
+	- fabric-model-loading-api-v1 2.0.0+fe474d6bd1
+	- fabric-networking-api-v1 4.2.2+60c3209bd1
+	- fabric-object-builder-api-v1 15.2.0+a551f7a4d1
+	- fabric-particles-v1 4.0.2+6573ed8cd1
+	- fabric-recipe-api-v1 5.0.12+65089712d1
+	- fabric-registry-sync-v0 5.1.2+60c3209bd1
+	- fabric-renderer-api-v1 3.4.0+c705a49cd1
+	- fabric-renderer-indigo 1.7.0+c705a49cd1
+	- fabric-renderer-registries-v1 3.2.68+df3654b3d1
+	- fabric-rendering-data-attachment-v1 0.3.48+73761d2ed1
+	- fabric-rendering-fluids-v1 3.1.6+b5597344d1
+	- fabric-rendering-v0 1.1.71+df3654b3d1
+	- fabric-rendering-v1 5.0.5+df16efd0d1
+	- fabric-resource-conditions-api-v1 4.3.0+8dc279b1d1
+	- fabric-resource-loader-v0 1.3.0+56599129d1
+	- fabric-screen-api-v1 2.0.24+b5597344d1
+	- fabric-screen-handler-api-v1 1.3.86+b5597344d1
+	- fabric-sound-api-v1 1.0.23+6573ed8cd1
+	- fabric-transfer-api-v1 5.1.16+3dccd343d1
+	- fabric-transitive-access-wideners-v1 6.1.0+176f9036d1
+	- fabricloader 0.16.10
+	- frytools 1.0-SNAPSHOT
+	- java 21
+	- minecraft 1.21
+	- mixinextras 0.4.1
+[00:32:20] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/C:/Users/yamah/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/6a12aacc794f1078458433116e9ed42c1cc98096/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[00:32:20] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[00:32:20] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[00:32:21] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_21
+[00:32:23] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[00:32:25] [Datafixer Bootstrap/INFO] (Minecraft) 226 Datafixer optimizations took 752 milliseconds
+[00:32:34] [Render thread/INFO] (Minecraft) Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[00:32:34] [Render thread/INFO] (Minecraft) Setting user: Player375
+[00:32:34] [Render thread/INFO] (Minecraft) [STDOUT]: FryTools Admin Panel loading...
+[00:32:35] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[00:32:36] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.3-snapshot
+[00:32:38] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric, authme, cloth-config, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-view-api-v2, fabric-blockrenderlayer-v1, fabric-client-tags-api-v1, fabric-command-api-v1, fabric-command-api-v2, fabric-commands-v0, fabric-content-registries-v0, fabric-convention-tags-v1, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-gametest-api-v1, fabric-item-api-v1, fabric-item-group-api-v1, fabric-key-binding-api-v1, fabric-keybindings-v0, fabric-lifecycle-events-v1, fabric-loot-api-v2, fabric-loot-api-v3, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-renderer-registries-v1, fabric-rendering-data-attachment-v1, fabric-rendering-fluids-v1, fabric-rendering-v0, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-screen-api-v1, fabric-screen-handler-api-v1, fabric-sound-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader
+[00:32:39] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-15.1.05.hex, loading
+[00:32:39] [Worker-Main-6/INFO] (Minecraft) Found unifont_jp_patch-15.1.05.hex, loading
+[00:32:41] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[00:32:41] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[00:32:41] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Voicemeeter Input (VB-Audio Voicemeeter VAIO)
+[00:32:41] [Render thread/INFO] (Minecraft) Sound engine started
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[00:32:41] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[00:32:42] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[00:32:42] [Render thread/INFO] (Minecraft) Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[00:32:42] [Render thread/INFO] (Minecraft) Created: 256x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[00:32:42] [Render thread/INFO] (Minecraft) Created: 64x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[00:32:42] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[00:32:42] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[00:33:23] [Render thread/INFO] (AuthMe) Adding auth button to the multiplayer screen
+[00:33:23] [ForkJoinPool.commonPool-worker-1/INFO] (AuthMe) Verifying Minecraft session...
+[00:33:23] [ForkJoinPool.commonPool-worker-1/ERROR] (AuthMe) Could not validate the Minecraft session!
+com.mojang.authlib.exceptions.InvalidCredentialsException: ForbiddenOperationException
+	at knot/com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:49) ~[authlib-6.0.54.jar:?]
+	at knot/com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.joinServer(YggdrasilMinecraftSessionService.java:81) ~[authlib-6.0.54.jar:?]
+	at knot/me.axieum.mcmod.authme.api.util.SessionUtils.lambda$getStatus$1(SessionUtils.java:156) ~[authme-8.0.0+1.21-64b5720b4b825f21.jar:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+[00:33:29] [pool-7-thread-1/INFO] (AuthMe) Acquiring Microsoft auth code...
+[00:33:29] [pool-7-thread-1/INFO] (AuthMe) Launching Microsoft login in browser: https://login.microsoftonline.com/consumers/oauth2/v2.0/authorize?client_id=e16699bb-2aa8-46da-b5e3-45cbcce29091&response_type=code&redirect_uri=http%3A%2F%2Flocalhost%3A25585%2Fcallback&scope=XboxLive.signin+offline_access&state=cMEWANbJ
+[00:33:29] [pool-7-thread-1/INFO] (AuthMe) Begin listening on http://localhost:25585/callback for a successful Microsoft login...
+[00:33:30] [pool-7-thread-1/INFO] (AuthMe) Acquired Microsoft auth code! (M.C517_BL2.2.U....d-2efe6a05aa6f)
+[00:33:32] [pool-7-thread-1/INFO] (AuthMe) Exchanging Microsoft auth code for an access token...
+[00:33:32] [pool-7-thread-1/INFO] (AuthMe) [POST] https://login.microsoftonline.com/consumers/oauth2/v2.0/token (timeout=30s)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Acquired Microsoft access token! (EwD4A+pvBAAUKod...uXGwW+0nsm7QI=)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Exchanging Microsoft access token for an Xbox Live access token...
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) [POST] https://user.auth.xboxlive.com/user/authenticate (timeout=30s)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Acquired Xbox Live access token! (eyJhbGciOiJSU0E...fy1CJNRWeu2lYQ)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Exchanging Xbox Live token for an Xbox Live XSTS token...
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) [POST] https://xsts.auth.xboxlive.com/xsts/authorize (timeout=30s)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Acquired Xbox Live XSTS token! (token=eyJlbmMiOiJBMTI...ScGYQ-oWpauS3g, uhs=3675827064884425302)
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) Exchanging Xbox Live XSTS token for a Minecraft access token...
+[00:33:33] [pool-7-thread-1/INFO] (AuthMe) [POST] https://api.minecraftservices.com/authentication/login_with_xbox (timeout=30s)
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) Acquired Minecraft access token! (eyJraWQiOiJhYzg...5KXJlVXzxuNVJk)
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) Fetching Minecraft profile...
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) [GET] https://api.minecraftservices.com/minecraft/profile (timeout=30s)
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) Fetched Minecraft profile! (name=TheFryGuy_, uuid=3eb2573c-8d77-4840-80bf-3337cdf48f30)
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) Minecraft session for TheFryGuy_ (uuid=3eb2573c-8d77-4840-80bf-3337cdf48f30) has been applied
+[00:33:34] [pool-7-thread-1/INFO] (AuthMe) Successfully logged in via Microsoft!
+[00:33:34] [Render thread/INFO] (AuthMe) Adding auth button to the multiplayer screen
+[00:33:34] [ForkJoinPool.commonPool-worker-1/INFO] (AuthMe) Verifying Minecraft session...
+[00:33:35] [ForkJoinPool.commonPool-worker-1/INFO] (AuthMe) The Minecraft session is valid
+[00:33:40] [Render thread/INFO] (Minecraft) Connecting to avn.gg, 25565
+[00:33:43] [Render thread/INFO] (Minecraft) [System] [CHAT] Avenian Guard » Vulcan Velocity alerts enabled!
+[00:33:44] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 3eb2573c-8d77-4840-80bf-3337cdf48f30 ([UPDATE_DISPLAY_NAME])
+[00:33:44] [Render thread/WARN] (Minecraft) Received passengers for unknown entity
+[00:33:44] [Render thread/INFO] (Minecraft) Loaded 26 advancements
+[00:33:48] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: minecraft:enchantable/mace
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] Avenian Guard » Vulcan alerts enabled!
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 3eb2573c-8d77-4840-80bf-3337cdf48f30 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01f397f7d9ac ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01fff724c5d0 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 526848a8-a8c5-45fe-a564-70c5382b8072 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 300b379e-b0b3-4bc2-9bdd-97caeb8bda5e ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 36875be9-4fd8-46db-b122-f2aa44c85ec5 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player be2704ca-160e-4ce4-8b03-c516a7a0cf9b ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 7b986f1f-08d0-4a87-bafd-609e7a3e9e7b ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player a09c1083-7b7c-4de3-b3ea-67c1fceefa72 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01f27ab683f5 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01f18420bf82 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b19c0f3e-c8c2-4196-9a23-c582612a80e1 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6a2685c1-41e8-4d8c-b799-f1b7c56804b8 ([UPDATE_DISPLAY_NAME])
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] 
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] 
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [Trade] A new update is available [Minecraft 1.21.3 & 1.21.4 Update]. You are 1 release(s) behind. Download it on https://www.spigotmc.org/resources/58434/update?update=576296
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] 
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] 
+[00:33:49] [Render thread/INFO] (Minecraft) Loaded 784 advancements
+[00:33:49] [Render thread/INFO] (Minecraft) [System] [CHAT] _________________/ CMI \_________________\n| 9.7.10.2 is now available! Your version: 9.7.8.2\n----------------------------------------
+[00:33:52] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: don't do long
+[00:33:58] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: max is 60 block distance
+[00:33:59] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: oh it's a stick
+[00:34:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: nice owo
+[00:34:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: yes but the throwing thing is additional
+[00:34:23] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: how did you add it?
+[00:34:32] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: right click using the gem
+[00:34:36] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: ah
+[00:35:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: not terribly expensive
+[00:35:49] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: weee
+[00:35:57] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: lived :3
+[00:36:06] [Render thread/INFO] (Minecraft) [System] [CHAT] -Jasberry_Jam116: fade
+[00:36:09] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: immortal
+[00:36:11] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: feather falling IV moment
+[00:36:13] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Fade: yes
+[00:36:18] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: i have talisman
+[00:36:25] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: 75% to neglate fal dam
+[00:36:26] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: wait huh
+[00:36:33] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: how did this wall get here
+[00:36:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: this ravine just stops
+[00:36:45] [Render thread/INFO] (Minecraft) [System] [CHAT] -Jasberry_Jam116: wht r u watching on netflix
+[00:36:50] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Fade: prison break
+[00:36:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: a classic
+[00:37:03] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Fade: indee
+[00:37:33] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: hm jam u said smth about challenge
+[00:37:33] [Render thread/INFO] (Minecraft) [System] [CHAT] -Jasberry_Jam116: i was thinking it is twinkle twinkle little star
+[00:37:40] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Fade: no
+[00:37:56] [Render thread/INFO] (Minecraft) [System] [CHAT] -Jasberry_Jam116: yah i have one
+[00:38:22] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] ~ozestero: she left
+[00:39:39] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 36875be9-4fd8-46db-b122-f2aa44c85ec5 ([UPDATE_DISPLAY_NAME])
+[00:39:54] [Render thread/INFO] (Minecraft) [System] [CHAT] Auto cleaned entities: 2
+[00:40:42] [Render thread/INFO] (Minecraft) [System] [CHAT] [SV] -zesterx18699 vanished.
+[00:41:28] [Render thread/INFO] (Minecraft) [System] [CHAT] Avenian Guard » Violations for all online players were reset!
+[00:43:45] [Render thread/INFO] (Minecraft) [System] [CHAT] Auto cleaned entities: 1
+[00:54:10] [Render thread/INFO] (Minecraft) [System] [CHAT] Avenian Guard » Violations for all online players were reset!
+[00:59:39] [Render thread/INFO] (Minecraft) [System] [CHAT] [POG] oah: reboot 1 minute
+[00:59:43] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] TheCookiePup: oh thx
+[01:00:03] [Render thread/INFO] (Minecraft) [System] [CHAT] [Server: Stopping the server]
+[01:00:25] [Render thread/INFO] (Minecraft) [System] [CHAT] ZzTan58008 left the game
+[01:00:25] [Render thread/INFO] (Minecraft) [System] [CHAT] RANDOM_HUMAN933 left the game
+[01:00:25] [Render thread/INFO] (Minecraft) [System] [CHAT] dimitriapog001 left the game
+[01:00:25] [Render thread/INFO] (Minecraft) [System] [CHAT] fbizombo left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] -B2O22 left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] __Fade left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] zylvania72 left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] TheCookiePup left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] -Mason3025 left the game
+[01:00:26] [Render thread/INFO] (Minecraft) [System] [CHAT] -zesterx18699 left the game
+[01:00:27] [Render thread/INFO] (Minecraft) [System] [CHAT] You were kicked from slimefun: Server closed
+[01:00:27] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:entity_type] are present in data pack: incendium:castle, incendium:castle_spawned, incendium:ghastling_enemy, incendium:mobs, incendium:mobs_no_player, incendium:other, incendium:sentry_targets, incendium:withersbane_targets, nullscape:not_teleportable
+[01:00:27] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: incendium:armor, incendium:blackstone_blocks, incendium:brewing_ingredients, incendium:cheater_items, incendium:gold_stackable, incendium:gold_unstackable, incendium:iron_stackable, incendium:smooth_stone_crafting_materials, incendium:tools, incendium:tools_armor, terralith:spire/common_tools, terralith:spire/diamond, terralith:spire/junk_tools, terralith:spire/leather_armor, terralith:spire/rare_tools
+[01:00:27] [Render thread/WARN] (Minecraft) Not all defined tags for registry ResourceKey[minecraft:root / minecraft:block] are present in data pack: c:ores, incendium:airs, incendium:basalt, incendium:basalt_replace, incendium:bedrock, incendium:black_concrete, incendium:bsn_no_basalt, incendium:dunes, incendium:ices, incendium:knight_immune, incendium:nether_blocks, incendium:nether_blocks_air, incendium:nether_blocks_no_air, incendium:nether_wart_block, incendium:netherrack, incendium:red_sandstone, incendium:smashables, incendium:smooth_basalt, incendium:smooth_basalt_only, incendium:soil_sand, incendium:soul_blocks, incendium:soul_sand, incendium:ssv_ceiling, incendium:ssv_soil_ceiling, incendium:toxic_surface, incendium:warped_wart_block, minecraft:glowstone, minecraft:mushrooms_spawnable_on, nullscape:amethyst_cut, nullscape:amethyst_dx, nullscape:brain_coral, nullscape:coral, nullscape:crystal_amethyst, nullscape:crystal_crying, nullscape:crystal_obsidian, nullscape:dead_corals, nullscape:end_bottom, nullscape:end_soil, nullscape:end_stone, nullscape:glowstone, nullscape:rift_blocks, nullscape:smooth_basalt, nullscape:void_air, terralith:alt_stones, terralith:calcite, terralith:calcite_moss, terralith:cobbled_deepslate, terralith:cobblestone_snow, terralith:deepslate, terralith:dirt_and_stone, terralith:grass_block, terralith:gravel_stone, terralith:island_ban, terralith:island_ban_winter, terralith:island_blocks, terralith:mud, terralith:sandstones, terralith:sandy_blocks, terralith:savanna_granite, terralith:savanna_terracotta, terralith:soil, terralith:soil_and_gravel, terralith:soil_stone, terralith:stone, terralith:stone_diorite, terralith:stop_emerald_geode, terralith:underground_jungle_replaceable, terralith:volcano_barrier, terralith:volcano_blocks
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 3eb2573c-8d77-4840-80bf-3337cdf48f30 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01fff724c5d0 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 300b379e-b0b3-4bc2-9bdd-97caeb8bda5e ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 36875be9-4fd8-46db-b122-f2aa44c85ec5 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player be2704ca-160e-4ce4-8b03-c516a7a0cf9b ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 7b986f1f-08d0-4a87-bafd-609e7a3e9e7b ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player a09c1083-7b7c-4de3-b3ea-67c1fceefa72 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 00000000-0000-0000-0009-01f18420bf82 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player b19c0f3e-c8c2-4196-9a23-c582612a80e1 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Ignoring player info update for unknown player 6a2685c1-41e8-4d8c-b799-f1b7c56804b8 ([UPDATE_DISPLAY_NAME])
+[01:00:27] [Render thread/WARN] (Minecraft) Received passengers for unknown entity
+[01:00:27] [Render thread/INFO] (Minecraft) Loaded 26 advancements
+[01:00:51] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] -zesterx18699: My allay breeder 3000 is working lesgooo
+[01:00:53] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Cookie: yay
+[01:01:55] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] -zesterx18699: hm are we thr only one tht is not afk?
+[01:02:01] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Cookie: yuh
+[01:02:06] [Render thread/INFO] (Minecraft) [System] [CHAT] [CHAD] -zesterx18699: dang
+[01:02:17] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Cookie: the server will be better with only 2 on :3
+[01:02:21] [Render thread/INFO] (Minecraft) [System] [CHAT] [VIP++] ~Cookie: performance wise
+[01:02:32] [Render thread/INFO] (Minecraft) [System] [CHAT] - -zesterx18699 Disconnected
+[01:02:32] [Render thread/INFO] (Minecraft) [System] [CHAT] - TheCookiePup Disconnected
+[01:02:44] [Render thread/INFO] (Minecraft) [System] [CHAT] - oah Disconnected
+[01:06:56] [Render thread/INFO] (Minecraft) [System] [CHAT] * zylvania72 is now AFK.
