@@ -1,2 +1,5 @@
 /vulcan profile TheFryGuy_
 /ah
+/home home
+/spawn
+/home home

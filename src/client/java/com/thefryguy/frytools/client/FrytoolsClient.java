@@ -1,6 +1,6 @@
 package com.thefryguy.frytools.client;
 
-import com.thefryguy.frytools.client.ui.FryToolsWindow;
+import com.thefryguy.frytools.client.window.FryToolsWindow;
 import net.fabricmc.api.ClientModInitializer;
 
 public class FrytoolsClient implements ClientModInitializer {
