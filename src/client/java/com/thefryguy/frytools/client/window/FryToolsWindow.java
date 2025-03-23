@@ -7,11 +7,11 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-
-import static com.thefryguy.frytools.client.window.SignScannerPanel.*;
+import com.thefryguy.frytools.client.window.SignScannerPanel; // Import the SignScannerPanel class
 
 public class FryToolsWindow {
     private static Stage stage;
+    private static SignScannerPanel signScannerPanel;
 
     public static void start() {
         Platform.startup(() -> {
@@ -50,8 +50,11 @@ public class FryToolsWindow {
 
         // Sign Scanner Tab
         Tab signScannerTab = new Tab("Sign Scanner");
-        signScannerTab.setContent(SignScannerPanel.createSignScannerPanel());
         signScannerTab.setClosable(false);
+
+        // Create and initialize SignScannerPanel (instead of static method call)
+        signScannerPanel = new SignScannerPanel();
+        signScannerTab.setContent(signScannerPanel.createSignScannerPanel());
 
         tabPane.getTabs().addAll(infoTab, entitiesTab, signScannerTab);
         mainPane.setCenter(tabPane);
@@ -65,7 +68,7 @@ public class FryToolsWindow {
         styleWindow(scene);
         stage.setScene(scene);
         stage.setTitle("FryTools Admin Panel");
-        stage.setAlwaysOnTop(true);
+        //stage.setAlwaysOnTop(true);
         stage.show();
     }
 
