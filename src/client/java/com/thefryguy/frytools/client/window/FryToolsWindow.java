@@ -7,11 +7,12 @@ import javafx.scene.control.*;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.stage.Stage;
-import com.thefryguy.frytools.client.window.SignScannerPanel; // Import the SignScannerPanel class
 
 public class FryToolsWindow {
     private static Stage stage;
     private static SignScannerPanel signScannerPanel;
+    private static CoordinateConverterPanel coordConverterPanel;
+    private static CommandScannerPanel commandScannerPanel;
 
     public static void start() {
         Platform.startup(() -> {
@@ -51,12 +52,29 @@ public class FryToolsWindow {
         // Sign Scanner Tab
         Tab signScannerTab = new Tab("Sign Scanner");
         signScannerTab.setClosable(false);
-
-        // Create and initialize SignScannerPanel (instead of static method call)
         signScannerPanel = new SignScannerPanel();
         signScannerTab.setContent(signScannerPanel.createSignScannerPanel());
 
-        tabPane.getTabs().addAll(infoTab, entitiesTab, signScannerTab);
+        // Coordinate Converter Tab
+        Tab coordConverterTab = new Tab("Coord Converter");
+        coordConverterTab.setClosable(false);
+        coordConverterPanel = new CoordinateConverterPanel();
+        coordConverterTab.setContent(coordConverterPanel.createCoordinateConverterPanel());
+
+        // Command Scanner Tab
+        Tab commandScannerTab = new Tab("Commands");
+        commandScannerTab.setClosable(false);
+        commandScannerPanel = new CommandScannerPanel();
+        commandScannerTab.setContent(commandScannerPanel.createCommandScannerPanel());
+
+        // Add all tabs
+        tabPane.getTabs().addAll(
+                infoTab,
+                entitiesTab,
+                signScannerTab,
+                coordConverterTab,
+                commandScannerTab
+        );
         mainPane.setCenter(tabPane);
 
         // 3. Status Bar
@@ -68,7 +86,6 @@ public class FryToolsWindow {
         styleWindow(scene);
         stage.setScene(scene);
         stage.setTitle("FryTools Admin Panel");
-        //stage.setAlwaysOnTop(true);
         stage.show();
     }
 
